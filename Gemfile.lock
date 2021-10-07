@@ -47,6 +47,10 @@ GEM
     activerecord (7.0.0.alpha2)
       activemodel (= 7.0.0.alpha2)
       activesupport (= 7.0.0.alpha2)
+    activerecord-pg_enum (1.2.2)
+      activerecord (>= 4.1.0)
+      activesupport
+      pg
     activestorage (7.0.0.alpha2)
       actionpack (= 7.0.0.alpha2)
       activejob (= 7.0.0.alpha2)
@@ -184,6 +188,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord-pg_enum
   bootsnap (>= 1.4.4)
   capybara (>= 3.26)
   debug (>= 1.0.0)
